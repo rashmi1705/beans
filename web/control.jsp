@@ -23,8 +23,8 @@
                 while(i.hasNext())
                 {   
                     Object o=i.next();
-                    bean.Modal m1=(bean.Modal) o;
-                    out.println("<br> Username:"+m1.getName());
+                    //bean.Modal m1=(bean.Modal) o;
+                    out.println("<br> Username: ");
                 }
             }catch(Exception e){
                 e.printStackTrace();
